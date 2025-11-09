@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Viet Coffee - Menu</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/laviet-logo.jpg" />
+  </head>
+
+  <body>
+    <header>
+      <div class="second-header">
+        <div class="menu-btn">
+          <span class="menu-btn__burger"></span>
+        </div>
+
+        <nav class="nav">
+          <ul class="menu-nav">
+            <li class="menu-nav__item">
+              <a href="index.html" class="logo menu-nav__link">
+                <img src="./img/laviet-logo.jpg" />
+                <!-- <span class="logo-first">Drip</span>
+                <span class="logo-last">Cafe</span> -->
+              </a>
+            </li>
+            <li class="menu-nav__item">
+              <a href="sign-in.html" class="sign-in menu-nav__link">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Sign In
+              </a>
+              <span class="menu-nav__link" id="slash">/</span>
+              <a href="sign-up.html" class="sign-up menu-nav__link">
+                Sign Up
+              </a>
+            </li>
+            <br />
+            <li class="menu-nav__item">
+              <a href="index.html" class="menu-nav__link">
+                Home
+              </a>
+            </li>
+            <li class="menu-nav__item active">
+              <a href="menu.html" class="menu-nav__link">
+                Menu
+              </a>
+            </li>
+            <!-- <li class="menu-nav__item">
+              <a href="services.html" class="menu-nav__link">
+                Services
+              </a>
+            </li> -->
+            <li class="menu-nav__item">
+              <a href="contact.html" class="menu-nav__link">
+                Contact
+              </a>
+            </li>
+            <li class="menu-nav__item">
+              <a href="#!" class="menu-nav__link cart__openBtn">
+                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Shopping Cart -->
+      <div class="cart-overlay">
+        <div class="cart">
+          <div class="cart__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <h2>
+            <i class="fa fa-cart-arrow-down"></i>
+            <span class="span-primary">Shopping</span> Cart
+            <i class="fa fa-cart-arrow-down"></i>
+          </h2>
+
+          <!-- JS will add items here -->
+          <div class="item1-display"></div>
+          <div class="item2-display"></div>
+          <div class="item3-display"></div>
+          <div class="item4-display"></div>
+          <div class="item5-display"></div>
+          <div class="item6-display"></div>
+          <div class="item7-display"></div>
+          <div class="item8-display"></div>
+          <div class="item9-display"></div>
+          <div class="item10-display"></div>
+          <div class="item11-display"></div>
+          <div class="item12-display"></div>
+          <div class="item13-display"></div>
+          <div class="item14-display"></div>
+          <div class="item15-display"></div>
+          <div class="item16-display"></div>
+          <div class="item17-display"></div>
+          <div class="item18-display"></div>
+          <div class="total"></div>
+        </div>
+      </div>
+      <!-- View 1: Ca phe sua -->
+      <div class="one__view-overlay">
+        <div class="one__view">
+          <div class="one__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="one__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">حليب</span> قهوة
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              نكهة القهوة الفيتنامية التقليدية بالحليب: غنية، قوية، ومألوفة.
+
+
+          
+              <br />
+              نصيحة احترافية: لجرعة إضافية من الطاقة، اطلب من الباريستا إضافة شوت إضافي.
+              
+            </div>
+            <img src="./img/menu/ca-phe-sua.png" alt="ca-phe-sua" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">غذائي</span> معلومات</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 15
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small"><div class="indent">Sugars 0 g</div></div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 225 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Water, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 2: Latte -->
+      <div class="two__view-overlay">
+        <div class="two__view">
+          <div class="two__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="two__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Latte</span>
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              The rich, timeless flavor of a classic European latte.
+              
+            </div>
+            <img src="./img/menu/latte.png" alt="Latte" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 110
+                <span class="span-right">Calories from Fat 35</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small">
+                <b>Total Fat</b> 4 g <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">
+                  Saturated Fat 2 g <span class="span-right">10%</span>
+                </div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Cholesterol</b> 15 mg <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <b>Sodium</b> 100 mg <span class="span-right">4%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 10 g
+                <span class="span-right">4%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 10 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 7 g <span class="span-right">14%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 150 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Coffee, Milk
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 3: Bac Xiu -->
+      <div class="three__view-overlay">
+        <div class="three__view">
+          <div class="three__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="three__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Bac</span> Xiu
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              A beloved Vietnamese coffee with a generous touch of milk
+              offering a smooth, harmonious, and comforting flavor that 
+              brightens your everyday moments.
+              
+               <br />
+              Pro Tip: For additional boost, ask your barista to try this with
+              an extra shot (85 mg caffeine per shot).
+            </div>
+            <img
+              src="./img/menu/bac-xiu.png"
+              alt="bac-xiu"
+            />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 15
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 225 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Water, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 4: Phin -->
+      <div class="four__view-overlay">
+        <div class="four__view">
+          <div class="four__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="four__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Phin</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Lightly roasted coffee that's soft, mellow and flavorful.
+              Easy-drinking on its own and delicious with milk, sugar or
+              flavored with vanilla, caramel or hazelnut.
+            </div>
+            <img src="./img/menu/phin.png" alt="phin" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 5
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small"><b>Total Carbohydrates</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 360 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Coffee
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 5: Dam -->
+      <div class="five__view-overlay">
+        <div class="five__view">
+          <div class="five__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="five__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Dam</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Bold and intense with the unmistakable taste of classic Vietnamese coffee
+              perfectly balanced when paired with sugar, condensed milk, or fresh milk.
+              Easy-drinking on its own and delicious with milk, sugar.
+              
+            </div>
+            <img src="./img/menu/dam.png" alt="Dam" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 5
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small"><b>Total Carbohydrates</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 360 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Coffee
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 6: Diu -->
+      <div class="six__view-overlay">
+        <div class="six__view">
+          <div class="six__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="six__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Diu</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Lightly roasted coffee that's soft, mellow and flavorful.
+              Easy-drinking on its own and delicious with milk, sugar or
+              flavored with vanilla, caramel or hazelnut.
+            </div>
+            <img src="./img/menu/diu.png" alt="diu" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 5
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small"><b>Total Carbohydrates</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 360 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Coffee
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 7: Phieu -->
+      <div class="seven__view-overlay">
+        <div class="seven__view">
+          <div class="seven__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="seven__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Phieu</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              This full-bodied dark roast coffee with bold, robust flavors
+              showcases our roasting and blending artistry—an essential blend of
+              balanced and lingering flavors.
+            </div>
+            <img src="./img/menu/phieu.png" alt="phieu" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 5
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small"><b>Total Carbohydrates</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 260 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Coffee
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 8: Classico -->
+      <div class="eight__view-overlay">
+        <div class="eight__view">
+          <div class="eight__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="eight__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Classico</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Classical taste always right!
+             
+              
+              
+              
+              
+              
+            </div>
+            <img src="./img/menu/classico.png" alt="classico" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 5
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small"><b>Total Carbohydrates</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 310 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Coffee
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 9: traditional -->
+      <div class="nine__view-overlay">
+        <div class="nine__view">
+          <div class="nine__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="nine__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">Traditional</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              From our first store in Da Lat City to our
+              coffeehouses around the world, customers requested a freshly
+              brewed coffee they could enjoy throughout the day. Our
+              master blenders and roasters created this for you—a smooth,
+              well-rounded blend of Vietnamese coffees with subtly rich
+              flavors of chocolate and toasted nuts, it’s served fresh every day
+              to serve your new day. (Decaf as you like it.)
+            </div>
+            <img src="./img/menu/traditional.png" alt="traditional" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 5
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small"><b>Total Carbohydrates</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 25 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Decaf Coffee
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 10: A -->
+      <div class="ten__view-overlay">
+        <div class="ten__view">
+          <div class="ten__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="ten__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">A</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Dark, rich espresso lies in wait under a smoothed and stretched
+              layer of thick milk foam. For restaurent, luxirious hotel.
+              
+            </div>
+            <img src="./img/menu/a.png" alt="a-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 120
+                <span class="span-right">Calories from Fat 35</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small">
+                <b>Total Fat</b> 4 g <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">
+                  Saturated Fat 2 g <span class="span-right">10%</span>
+                </div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Cholesterol</b> 15 mg <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <b>Sodium</b> 100 mg <span class="span-right">4%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 12 g
+                <span class="span-right">4%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 10 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 8 g <span class="span-right">16%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 150 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Milk, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 11: B  -->
+      <div class="eleven__view-overlay">
+        <div class="eleven__view">
+          <div class="eleven__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="eleven__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">B</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Our seriously smooth and subtly sweet Bold coffee lies in wait
+              under a smoothed and stretched layer of thick foam. This
+              cappuccino offers a luxurious texture and velvety, frothy foam
+              with a crisp, cool undercurrent.
+            </div>
+            <img src="./img/menu/b.png" alt="b-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 120
+                <span class="span-right">Calories from Fat 35</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small">
+                <b>Total Fat</b> 4 g <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">
+                  Saturated Fat 2 g <span class="span-right">10%</span>
+                </div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Cholesterol</b> 15 mg <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <b>Sodium</b> 100 mg <span class="span-right">4%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 12 g
+                <span class="span-right">4%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 10 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 8 g <span class="span-right">16%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 170 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Milk, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 12: C  -->
+      <div class="twelve__view-overlay">
+        <div class="twelve__view">
+          <div class="twelve__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="twelve__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">C</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Our smooth signature Coldbrew with rich flavor and caramelly
+              sweetness is at the very heart of everything we do.
+            </div>
+            <img src="./img/menu/c.png" alt="c-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 10
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small"><b>Sodium</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 150 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 13: D -->
+      <div class="thirteen__view-overlay">
+        <div class="thirteen__view">
+          <div class="thirteen__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="thirteen__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">D</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Bold and smoky with a sweet, lingering finish
+              ideal for Phin-brewed black coffee or a strong espresso with a hint of smokiness.
+              
+            </div>
+            <img src="./img/menu/d.png" alt="d-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 15
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small"><b>Sodium</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 150 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Brewed Espresso, Milk
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 14: E1 -->
+      <div class="fourteen__view-overlay">
+        <div class="fourteen__view">
+          <div class="fourteen__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="fourteen__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">E1</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Smooth ristretto shots of espresso get the perfect amount of
+              steamed whole milk to create a not-too-strong, not-too-creamy,
+              just-right flavor.
+            </div>
+            <img src="./img/e1.png" alt="e1-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 170
+                <span class="span-right">Calories from Fat 80</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small">
+                <b>Total Fat</b> 9 g <span class="span-right">12%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">
+                  Saturated Fat 5 g <span class="span-right">25%</span>
+                </div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Cholesterol</b> 25 mg <span class="span-right">8%</span>
+              </div>
+              <div class="bar-small">
+                <b>Sodium</b> 115 mg <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 14 g
+                <span class="span-right">5%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Sugars 13 g</div>
+              </div>
+              <div class="bar-small">
+                <b>Protein</b> 9 g <span class="span-right">18%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 130 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Milk, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 15: E2 -->
+      <div class="fifteen__view-overlay">
+        <div class="fifteen__view">
+          <div class="fifteen__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="fifteen__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">E2</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Specially roasted for espresso, offering a deep, full-bodied taste. 
+              Its rich flavor stands out beautifully when paired with sugar or milk.
+              
+              <br />
+              
+              
+            </div>
+            <img src="./img/menu/e2.png" alt="e2-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 15
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small"><div class="indent">Sugars 0 g</div></div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 225 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Water, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 16: F1 -->
+      <div class="sixteen__view-overlay">
+        <div class="sixteen__view">
+          <div class="sixteen__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="sixteen__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">F1</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Espresso shots topped with hot water create a light layer of crema
+              culminating in this wonderfully rich cup with depth and nuance.
+              <br />
+              
+              
+            </div>
+            <img src="./img/menu/f1.png" alt="f1-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 15
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small"><div class="indent">Sugars 0 g</div></div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 225 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Water, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 17: F2 -->
+      <div class="seventeen__view-overlay">
+        <div class="seventeen__view">
+          <div class="seventeen__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="seventeen__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">F2</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Espresso shots topped with hot water create a light layer of crema
+              culminating in this wonderfully rich cup with depth and nuance.
+              <br />
+              
+              
+            </div>
+            <img src="./img/menu/F2.png" alt="f2-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 15
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small"><div class="indent">Sugars 0 g</div></div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 225 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Water, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 18: S -->
+      <div class="eighteen__view-overlay">
+        <div class="eighteen__view">
+          <div class="eighteen__view__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <div class="eighteen__view-content">
+            <h2>
+              <i class="fas fa-mug-hot"></i>
+              <span class="span-primary">S</span> Coffee
+              <i class="fas fa-mug-hot"></i>
+            </h2>
+            <div class="description">
+              Special House Blend — A harmonious combination of premium Vietnamese Arabica varieties. 
+              Roasted lighter than traditional espresso beans
+              this blend offers bright, fruity acidity with a refined, lingering sweetness.
+              
+              <br />
+              
+              
+            </div>
+            <img src="./img/menu/s.png" alt="s-coffee" />
+            <div class="nutritional_info">
+              <h2><span class="span-primary">Nutritional</span> Information</h2>
+              <div class="bar-large">لكل عبوة واحدة</div>
+              <div class="bar-medium">
+                <b>Calories</b> 15
+                <span class="span-right">Calories from Fat 0</span>
+              </div>
+              <div class="bar-small">
+                <div class="span-align-right">% Daily Value *</div>
+              </div>
+              <div class="bar-small"><b>Total Fat</b> 0 g</div>
+              <div class="bar-small">
+                <div class="indent">Saturated Fat 0 g</div>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Trans Fat 0 g</div>
+              </div>
+              <div class="bar-small"><b>Cholesterol</b> 0 mg</div>
+              <div class="bar-small">
+                <b>Sodium</b> 10 mg <span class="span-right">0%</span>
+              </div>
+              <div class="bar-small">
+                <b>Total Carbohydrates</b> 2 g
+                <span class="span-right">1%</span>
+              </div>
+              <div class="bar-small">
+                <div class="indent">Dietary Fiber 0 g</div>
+              </div>
+              <div class="bar-small"><div class="indent">Sugars 0 g</div></div>
+              <div class="bar-small">
+                <b>Protein</b> 1 g <span class="span-right">2%</span>
+              </div>
+              <div class="bar-small"><b>Caffeine</b> 225 mg</div>
+              * 2,000 calories a day is used for general nutrition advice, but
+              calorie needs vary.
+            </div>
+
+            <div class="ingredients">
+              <h2>Ingredients</h2>
+              Water, Brewed Espresso
+            </div>
+
+            <div class="allergens">
+              <h2>Allergens</h2>
+              Not available for this item
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+      <section class="menu">
+        <div class="pic-area">
+          <div class="pic-area-text">
+            <img src="./img/laviet-rmbg.png" alt="Là Việt Coffee" class="logo-header">
+          </div>
+        </div>
+        <div class="flex">
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/ca-phe-sua.png" alt="ca-phe-sua" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn one__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn one__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Milk Coffee</h2>
+            <h3>$14.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/latte.png" alt="Latte" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn two__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn two__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Latte</h2>
+            <h3>$14.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img
+                src="./img/menu/bac-xiu.png"
+                alt="bac-xiu"
+              />
+              <div class="box__btns">
+                <a href="#!" class="box__btn three__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn three__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>White Coffee</h2>
+            <h3>$14.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/phin.png" alt="phin" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn four__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn four__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Phin Coffee</h2>
+            <h3>$14.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/dam.png" alt="dam" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn five__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn five__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Dam Coffee</h2>
+            <h3>$14.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/diu.png" alt="diu" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn six__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn six__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Diu Coffee</h2>
+            <h3>$14.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img
+                src="./img/menu/phieu.png"
+                alt="phieu"
+              />
+              <div class="box__btns">
+                <a href="#!" class="box__btn seven__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn seven__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Phieu Coffee</h2>
+            <h3>$14.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/classico.png" alt="classico" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn eight__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn eight__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Classico Coffee</h2>
+            <h3>$4.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/traditional.png" alt="traditional" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn nine__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn nine__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Traditional Coffee</h2>
+            <h3>$4.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/a.png" alt="a-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn ten__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn ten__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Aromatic Coffee</h2>
+            <h3>$21.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img
+                src="./img/menu/b.png"
+                alt="b-coffee"
+              />
+              <div class="box__btns">
+                <a href="#!" class="box__btn eleven__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn eleven__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Bold</h2>
+            <h3>$21.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/c.png" alt="c-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn twelve__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn twelve__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Cold Brew</h2>
+            <h3>$2.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/d.png" alt="d-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn thirteen__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn thirteen__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>Dark Roast</h2>
+            <h3>$21.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/e1.png" alt="e1-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn fourteen__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn fourteen__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>E1 Coffee</h2>
+            <h3>$21.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/e2.png" alt="e2-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn fifteen__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn fifteen__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>E2 Coffee</h2>
+            <h3>$21.15</h3>
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/f1.png" alt="f1-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn sixteen__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn sixteen__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>F1 Coffee</h2>
+            <h3>$21.15</h3>
+        
+          </div>
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/f2.png" alt="f2-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn seventeen__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn seventeen__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>F2 Coffee</h2>
+            <h3>$21.15</h3>
+          </div>
+
+          <div class="box">
+            <div class="img-container">
+              <img src="./img/menu/s.png" alt="s-coffee" />
+              <div class="box__btns">
+                <a href="#!" class="box__btn eighteen__view__openBtn">
+                  View
+                </a>
+                <a href="#!" class="box__btn eighteen__cart__button">
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+            <h2>S Coffee</h2>
+            <h3>$21.15</h3>
+          </div>
+
+        </div>
+        <footer>
+          <div class="icons">
+            <a href="#!">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#!">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#!">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#!">
+              <i class="fab fa-snapchat-square"></i>
+            </a>
+          </div>
+          <div class="copyright">&copy; Copyright 2025</div>
+        </footer>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="./js/menu.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c057664144.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
