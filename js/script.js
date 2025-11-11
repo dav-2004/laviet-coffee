@@ -726,7 +726,7 @@ function initializeItem1() {
   <img src="./img/menu/ca-phe-sua.png" alt="product" />
     <div>
       <h3><span class="span-primary">بالحليب</span> قهوة</h3>
-      <h4>$14.15</h4>
+      <h4>$17.48</h4>
       <span class="remove-item-1">Remove</span>
     </div>
     <div>
@@ -747,14 +747,14 @@ function initializeItem1() {
   up1.addEventListener("click", function () {
     item1Counter++;
     item1Amount.innerHTML = item1Counter;
-    updateTotal(14.15);
+    updateTotal(17.48);
     Storage.setAmount("item1", item1Counter);
   });
 
   down1.addEventListener("click", function () {
     item1Counter--;
     item1Amount.innerHTML = item1Counter;
-    updateTotal(-14.15);
+    updateTotal(-17.48);
     Storage.setAmount("item1", item1Counter);
 
     if (item1Counter === 0) {
@@ -765,7 +765,7 @@ function initializeItem1() {
 
   remove1.addEventListener("click", function () {
     item1Display.innerHTML = "";
-    updateTotal(-14.15 * item1Counter);
+    updateTotal(-17.48 * item1Counter);
     item1Counter = 0;
     Storage.removeAmount("item1");
   });
@@ -780,7 +780,7 @@ function initializeItem2() {
   <img src="./img/menu/latte.png" alt="product" />
     <div>
       <h3><span class="span-primary">لاتيه</span> </h3>
-      <h4>$14.15</h4>
+      <h4>$17.48</h4>
       <span class="remove-item-2">Remove</span>
     </div>
     <div>
@@ -801,14 +801,14 @@ function initializeItem2() {
   up2.addEventListener("click", function () {
     item2Counter++;
     item2Amount.innerHTML = item2Counter;
-    updateTotal(14.15);
+    updateTotal(17.48);
     Storage.setAmount("item2", item2Counter);
   });
 
   down2.addEventListener("click", function () {
     item2Counter--;
     item2Amount.innerHTML = item2Counter;
-    updateTotal(-14.15);
+    updateTotal(-17.48);
     Storage.setAmount("item2", item2Counter);
 
     if (item2Counter === 0) {
@@ -819,7 +819,7 @@ function initializeItem2() {
 
   remove2.addEventListener("click", function () {
     item2Display.innerHTML = "";
-    updateTotal(-14.15 * item2Counter);
+    updateTotal(-17.48 * item2Counter);
     item2Counter = 0;
     Storage.removeAmount("item2");
   });
@@ -834,7 +834,7 @@ function initializeItem3() {
   <img src="./img/menu/bac-xiu.png" alt="product" />
     <div>
       <h3><span class="span-primary">بيضاء</span> قهوة</h3>
-      <h4>$14.15</h4>
+      <h4>$17.48</h4>
       <span class="remove-item-3">Remove</span>
     </div>
     <div>
@@ -855,14 +855,14 @@ function initializeItem3() {
   up3.addEventListener("click", function () {
     item3Counter++;
     item3Amount.innerHTML = item3Counter;
-    updateTotal(14.15);
+    updateTotal(17.48);
     Storage.setAmount("item3", item3Counter);
   });
 
   down3.addEventListener("click", function () {
     item3Counter--;
     item3Amount.innerHTML = item3Counter;
-    updateTotal(-14.15);
+    updateTotal(-17.48);
     Storage.setAmount("item3", item3Counter);
 
     if (item3Counter === 0) {
@@ -873,7 +873,7 @@ function initializeItem3() {
 
   remove3.addEventListener("click", function () {
     item3Display.innerHTML = "";
-    updateTotal(-14.15 * item3Counter);
+    updateTotal(-17.48 * item3Counter);
     item3Counter = 0;
     Storage.removeAmount("item3");
   });
@@ -888,7 +888,7 @@ function initializeItem4() {
   <img src="./img/menu/phin.png" alt="product" />
     <div>
       <h3><span class="span-primary">Phin</span> قهوة</h3>
-      <h4>$14.15</h4>
+      <h4>$17.48</h4>
       <span class="remove-item-4">Remove</span>
     </div>
     <div>
@@ -909,14 +909,14 @@ function initializeItem4() {
   up4.addEventListener("click", function () {
     item4Counter++;
     item4Amount.innerHTML = item4Counter;
-    updateTotal(14.15);
+    updateTotal(17.48);
     Storage.setAmount("item4", item4Counter);
   });
 
   down4.addEventListener("click", function () {
     item4Counter--;
     item4Amount.innerHTML = item4Counter;
-    updateTotal(-14.15);
+    updateTotal(-17.48);
     Storage.setAmount("item4", item4Counter);
 
     if (item4Counter === 0) {
@@ -927,7 +927,7 @@ function initializeItem4() {
 
   remove4.addEventListener("click", function () {
     item4Display.innerHTML = "";
-    updateTotal(-14.15 * item4Counter);
+    updateTotal(-17.48 * item4Counter);
     item4Counter = 0;
     Storage.removeAmount("item4");
   });
@@ -942,7 +942,7 @@ function initializeItem5() {
   <img src="./img/menu/dam.png" alt="product" />
     <div>
       <h3><span class="span-primary">Dam</span> قهوة</h3>
-      <h4>$14.15</h4>
+      <h4>$17.48</h4>
       <span class="remove-item-5">Remove</span>
     </div>
     <div>
@@ -963,14 +963,14 @@ function initializeItem5() {
   up5.addEventListener("click", function () {
     item5Counter++;
     item5Amount.innerHTML = item5Counter;
-    updateTotal(14.15);
+    updateTotal(17.48);
     Storage.setAmount("item5", item5Counter);
   });
 
   down5.addEventListener("click", function () {
     item5Counter--;
     item5Amount.innerHTML = item5Counter;
-    updateTotal(-14.15);
+    updateTotal(-17.48);
     Storage.setAmount("item5", item5Counter);
 
     if (item5Counter === 0) {
@@ -981,7 +981,7 @@ function initializeItem5() {
 
   remove5.addEventListener("click", function () {
     item5Display.innerHTML = "";
-    updateTotal(-14.15 * item5Counter);
+    updateTotal(-17.48 * item5Counter);
     item5Counter = 0;
     Storage.removeAmount("item5");
   });
@@ -996,7 +996,7 @@ function initializeItem6() {
   <img src="./img/menu/diu.png" alt="product" />
     <div>
       <h3><span class="span-primary">Diu</span> قهوة</h3>
-      <h4>$14.15</h4>
+      <h4>$17.48</h4>
       <span class="remove-item-6">Remove</span>
     </div>
     <div>
@@ -1017,14 +1017,14 @@ function initializeItem6() {
   up6.addEventListener("click", function () {
     item6Counter++;
     item6Amount.innerHTML = item6Counter;
-    updateTotal(14.15);
+    updateTotal(17.48);
     Storage.setAmount("item6", item6Counter);
   });
 
   down6.addEventListener("click", function () {
     item6Counter--;
     item6Amount.innerHTML = item6Counter;
-    updateTotal(-14.15);
+    updateTotal(-17.48);
     Storage.setAmount("item6", item6Counter);
 
     if (item6Counter === 0) {
@@ -1035,7 +1035,7 @@ function initializeItem6() {
 
   remove6.addEventListener("click", function () {
     item6Display.innerHTML = "";
-    updateTotal(-14.15 * item6Counter);
+    updateTotal(-17.48 * item6Counter);
     item6Counter = 0;
     Storage.removeAmount("item6");
   });
@@ -1050,7 +1050,7 @@ function initializeItem7() {
   <img src="./img/menu/phieu.png" alt="product" />
     <div>
       <h3><span class="span-primary">Phieu </span>قهوة</h3>
-      <h4>$14.15</h4>
+      <h4>$17.48</h4>
       <span class="remove-item-7">Remove</span>
     </div>
     <div>
@@ -1071,14 +1071,14 @@ function initializeItem7() {
   up7.addEventListener("click", function () {
     item7Counter++;
     item7Amount.innerHTML = item7Counter;
-    updateTotal(14.15);
+    updateTotal(17.48);
     Storage.setAmount("item7", item7Counter);
   });
 
   down7.addEventListener("click", function () {
     item7Counter--;
     item7Amount.innerHTML = item7Counter;
-    updateTotal(-14.15);
+    updateTotal(-17.48);
     Storage.setAmount("item7", item7Counter);
 
     if (item7Counter === 0) {
@@ -1089,7 +1089,7 @@ function initializeItem7() {
 
   remove7.addEventListener("click", function () {
     item7Display.innerHTML = "";
-    updateTotal(-14.15 * item7Counter);
+    updateTotal(-17.48 * item7Counter);
     item7Counter = 0;
     Storage.removeAmount("item7");
   });
@@ -1104,7 +1104,7 @@ function initializeItem8() {
   <img src="./img/menu/classico.png" alt="product" />
     <div>
       <h3><span class="span-primary">Classio</span>قهوة</h3>
-      <h4>$4.15</h4>
+      <h4>$7.48</h4>
       <span class="remove-item-8">Remove</span>
     </div>
     <div>
@@ -1125,14 +1125,14 @@ function initializeItem8() {
   up8.addEventListener("click", function () {
     item8Counter++;
     item8Amount.innerHTML = item8Counter;
-    updateTotal(4.15);
+    updateTotal(7.48);
     Storage.setAmount("item8", item8Counter);
   });
 
   down8.addEventListener("click", function () {
     item8Counter--;
     item8Amount.innerHTML = item8Counter;
-    updateTotal(-4.15);
+    updateTotal(-7.48);
     Storage.setAmount("item8", item8Counter);
 
     if (item8Counter === 0) {
@@ -1143,7 +1143,7 @@ function initializeItem8() {
 
   remove8.addEventListener("click", function () {
     item8Display.innerHTML = "";
-    updateTotal(-4.15 * item8Counter);
+    updateTotal(-7.48 * item8Counter);
     item8Counter = 0;
     Storage.removeAmount("item8");
   });
@@ -1158,7 +1158,7 @@ function initializeItem9() {
   <img src="./img/menu/traditional.png" alt="product" />
     <div>
       <h3><span class="span-primary">Traditional</span> قهوة</h3>
-      <h4>$4.15</h4>
+      <h4>$7.48</h4>
       <span class="remove-item-9">Remove</span>
     </div>
     <div>
@@ -1179,14 +1179,14 @@ function initializeItem9() {
   up9.addEventListener("click", function () {
     item9Counter++;
     item9Amount.innerHTML = item9Counter;
-    updateTotal(4.15);
+    updateTotal(7.48);
     Storage.setAmount("item9", item9Counter);
   });
 
   down9.addEventListener("click", function () {
     item9Counter--;
     item9Amount.innerHTML = item9Counter;
-    updateTotal(-4.15);
+    updateTotal(-7.48);
     Storage.setAmount("item9", item9Counter);
 
     if (item9Counter === 0) {
@@ -1197,7 +1197,7 @@ function initializeItem9() {
 
   remove9.addEventListener("click", function () {
     item9Display.innerHTML = "";
-    updateTotal(-4.15 * item9Counter);
+    updateTotal(-7.48 * item9Counter);
     item9Counter = 0;
     Storage.removeAmount("item9");
   });
@@ -1212,7 +1212,7 @@ function initializeItem10() {
   <img src="./img/menu/a.png" alt="product" />
     <div>
       <h3><span class="span-primary">Aromatic</span>قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-10">Remove</span>
     </div>
     <div>
@@ -1233,14 +1233,14 @@ function initializeItem10() {
   up10.addEventListener("click", function () {
     item10Counter++;
     item10Amount.innerHTML = item10Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item10", item10Counter);
   });
 
   down10.addEventListener("click", function () {
     item10Counter--;
     item10Amount.innerHTML = item10Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item10", item10Counter);
 
     if (item10Counter === 0) {
@@ -1251,7 +1251,7 @@ function initializeItem10() {
 
   remove10.addEventListener("click", function () {
     item10Display.innerHTML = "";
-    updateTotal(-2 * item10Counter);
+    updateTotal(-24.48 * item10Counter);
     item10Counter = 0;
     Storage.removeAmount("item10");
   });
@@ -1266,7 +1266,7 @@ function initializeItem11() {
   <img src="./img/menu/b.png" alt="product" />
     <div>
       <h3><span class="span-primary">Bold</span> قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-11">Remove</span>
     </div>
     <div>
@@ -1287,14 +1287,14 @@ function initializeItem11() {
   up11.addEventListener("click", function () {
     item11Counter++;
     item11Amount.innerHTML = item11Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item11", item11Counter);
   });
 
   down11.addEventListener("click", function () {
     item11Counter--;
     item11Amount.innerHTML = item11Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item11", item11Counter);
 
     if (item11Counter === 0) {
@@ -1305,7 +1305,7 @@ function initializeItem11() {
 
   remove11.addEventListener("click", function () {
     item11Display.innerHTML = "";
-    updateTotal(-21.15 * item11Counter);
+    updateTotal(-24.48 * item11Counter);
     item11Counter = 0;
     Storage.removeAmount("item11");
   });
@@ -1320,7 +1320,7 @@ function initializeItem12() {
   <img src="./img/menu/c.png" alt="product" />
     <div>
       <h3><span class="span-primary">Coldbrew</span> قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-12">Remove</span>
     </div>
     <div>
@@ -1341,14 +1341,14 @@ function initializeItem12() {
   up12.addEventListener("click", function () {
     item12Counter++;
     item12Amount.innerHTML = item12Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item12", item12Counter);
   });
 
   down12.addEventListener("click", function () {
     item12Counter--;
     item12Amount.innerHTML = item12Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item12", item12Counter);
 
     if (item12Counter === 0) {
@@ -1359,7 +1359,7 @@ function initializeItem12() {
 
   remove12.addEventListener("click", function () {
     item12Display.innerHTML = "";
-    updateTotal(-21.15 * item12Counter);
+    updateTotal(-24.48 * item12Counter);
     item12Counter = 0;
     Storage.removeAmount("item12");
   });
@@ -1374,7 +1374,7 @@ function initializeItem13() {
   <img src="./img/menu/d.png" alt="product" />
     <div>
       <h3><span class="span-primary">D</span>قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-13">Remove</span>
     </div>
     <div>
@@ -1396,14 +1396,14 @@ function initializeItem13() {
   up13.addEventListener("click", function () {
     item13Counter++;
     item13Amount.innerHTML = item13Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item13", item13Counter);
   });
 
   down13.addEventListener("click", function () {
     item13Counter--;
     item13Amount.innerHTML = item13Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item13", item13Counter);
 
     if (item13Counter === 0) {
@@ -1414,7 +1414,7 @@ function initializeItem13() {
 
   remove13.addEventListener("click", function () {
     item13Display.innerHTML = "";
-    updateTotal(-21.15 * item13Counter);
+    updateTotal(-24.48 * item13Counter);
     item13Counter = 0;
     Storage.removeAmount("item13");
   });
@@ -1429,7 +1429,7 @@ function initializeItem14() {
   <img src="./img/menu/e1.png" alt="product" />
     <div>
       <h3><span class="span-primary">E1</span>قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-14">Remove</span>
     </div>
     <div>
@@ -1447,14 +1447,14 @@ function initializeItem14() {
   up14.addEventListener("click", function () {
     item14Counter++;
     item14Amount.innerHTML = item14Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item14", item14Counter);
   });
 
   down14.addEventListener("click", function () {
     item14Counter--;
     item14Amount.innerHTML = item14Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item14", item14Counter);
     if (item14Counter === 0) {
       item14Display.innerHTML = "";
@@ -1464,7 +1464,7 @@ function initializeItem14() {
 
   remove14.addEventListener("click", function () {
     item14Display.innerHTML = "";
-    updateTotal(-21.15 * item14Counter);
+    updateTotal(-24.48 * item14Counter);
     item14Counter = 0;
     Storage.removeAmount("item14");
   });
@@ -1479,7 +1479,7 @@ function initializeItem15() {
   <img src="./img/menu/e2.png" alt="product" />
     <div>
       <h3><span class="span-primary">E2</span>قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-15">Remove</span>
     </div>
     <div>
@@ -1497,14 +1497,14 @@ function initializeItem15() {
   up15.addEventListener("click", function () {
     item15Counter++;
     item15Amount.innerHTML = item15Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item15", item15Counter);
   });
 
   down15.addEventListener("click", function () {
     item15Counter--;
     item15Amount.innerHTML = item15Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item15", item15Counter);
     if (item15Counter === 0) {
       item15Display.innerHTML = "";
@@ -1514,7 +1514,7 @@ function initializeItem15() {
 
   remove15.addEventListener("click", function () {
     item15Display.innerHTML = "";
-    updateTotal(-21.15 * item15Counter);
+    updateTotal(-24.48 * item15Counter);
     item15Counter = 0;
     Storage.removeAmount("item15");
   });
@@ -1529,7 +1529,7 @@ function initializeItem16() {
   <img src="./img/menu/f1.png" alt="product" />
     <div>
       <h3><span class="span-primary">F1</span>قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-16">Remove</span>
     </div>
     <div>
@@ -1547,14 +1547,14 @@ function initializeItem16() {
   up16.addEventListener("click", function () {
     item16Counter++;
     item16Amount.innerHTML = item16Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item16", item16Counter);
   });
 
   down16.addEventListener("click", function () {
     item16Counter--;
     item16Amount.innerHTML = item16Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item16", item16Counter);
     if (item16Counter === 0) {
       item16Display.innerHTML = "";
@@ -1564,7 +1564,7 @@ function initializeItem16() {
 
   remove16.addEventListener("click", function () {
     item16Display.innerHTML = "";
-    updateTotal(-21.15 * item16Counter);
+    updateTotal(-24.48 * item16Counter);
     item16Counter = 0;
     Storage.removeAmount("item16");
   });
@@ -1579,7 +1579,7 @@ function initializeItem17() {
   <img src="./img/menu/f2.png" alt="product" />
     <div>
       <h3><span class="span-primary">F1</span>قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-17">Remove</span>
     </div>
     <div>
@@ -1597,14 +1597,14 @@ function initializeItem17() {
   up17.addEventListener("click", function () {
     item17Counter++;
     item17Amount.innerHTML = item17Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item17", item17Counter);
   });
 
   down17.addEventListener("click", function () {
     item17Counter--;
     item17Amount.innerHTML = item17Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item17", item17Counter);
     if (item17Counter === 0) {
       item17Display.innerHTML = "";
@@ -1614,7 +1614,7 @@ function initializeItem17() {
 
   remove17.addEventListener("click", function () {
     item17Display.innerHTML = "";
-    updateTotal(-21.15 * item17Counter);
+    updateTotal(-24.48 * item17Counter);
     item17Counter = 0;
     Storage.removeAmount("item17");
   });
@@ -1629,7 +1629,7 @@ function initializeItem18() {
   <img src="./img/menu/s.png" alt="product" />
     <div>
       <h3><span class="span-primary">S</span>قهوة</h3>
-      <h4>$21.15</h4>
+      <h4>$24.48</h4>
       <span class="remove-item-18">Remove</span>
     </div>
     <div>
@@ -1647,14 +1647,14 @@ function initializeItem18() {
   up18.addEventListener("click", function () {
     item18Counter++;
     item18Amount.innerHTML = item18Counter;
-    updateTotal(21.15);
+    updateTotal(24.48);
     Storage.setAmount("item18", item18Counter);
   });
 
   down18.addEventListener("click", function () {
     item18Counter--;
     item18Amount.innerHTML = item18Counter;
-    updateTotal(-21.15);
+    updateTotal(-24.48);
     Storage.setAmount("item18", item18Counter);
     if (item18Counter === 0) {
       item18Display.innerHTML = "";
@@ -1664,7 +1664,7 @@ function initializeItem18() {
 
   remove18.addEventListener("click", function () {
     item18Display.innerHTML = "";
-    updateTotal(-21.15 * item18Counter);
+    updateTotal(-24.48 * item18Counter);
     item18Counter = 0;
     Storage.removeAmount("item18");
   });
